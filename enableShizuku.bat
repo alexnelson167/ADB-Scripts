@@ -1,4 +1,6 @@
 @echo off
+set dir= rem add path to ADB here
+cd %dir%
 echo these devices are conneced 
 .\adb.exe devices
 
